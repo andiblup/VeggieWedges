@@ -1,0 +1,77 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+/*
+ * Bootstrap Icons
+ * https://icons.getbootstrap.com/
+ * npm i bootstrap-icons
+*/
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+// EXPERIMENTAL
+.custom-checkbox {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.custom-checkbox i {
+    display: inline-block;
+    width: 24px;   
+    height: 24px;  
+    // cursor: pointer;
+    margin-bottom: 2rem;
+}
+////////////////////
+
+
+#body * :not(.btn, i) {
+    color: inherit!important;
+    background-color: inherit!important;
+}
+// #body * :not(.btn) {
+//     color: inherit!important;
+//     background-color: inherit!important;
+// }
+
+#body input::placeholder {
+    color: inherit!important;
+    background-color: inherit!important;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.dark-mode {
+    background-color: #41413F!important;
+    color: white!important;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode-body {
+    background-color: #222222!important;
+    color: white;
+}
+
+.light-mode-body {
+    background-color: white!important;
+    color: black;
+}
